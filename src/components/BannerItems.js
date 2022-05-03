@@ -24,7 +24,9 @@ function BannerItems() {
       </div>
       <div class="product-items-imgs d-flex flex-wrap">
         <div class="vector-background ">
-          <div class="product-img-1"></div>
+          <div class="product-img-1">
+            <div class="hot-logo"></div>
+          </div>
           <p class="product-img-title">Nike Air Max 270 React</p>
           <div class="rating-stars d-flex justify-content-center">
             <svg
@@ -102,7 +104,11 @@ function BannerItems() {
           </div>
         </div>
         <div class="vector-background ">
-          <div class="product-img-3"></div>
+          <div class="product-img-3">
+            <div>
+              <div class="hovering-box"></div>
+            </div>
+          </div>
           <p class="product-img-title">Nike Air Max 270 React</p>
           <div class="rating-stars d-flex justify-content-center">
             <svg

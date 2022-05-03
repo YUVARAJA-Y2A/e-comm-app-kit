@@ -9,8 +9,6 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 52px;
-  /* identical to box height */
-
   color: #22262a;
 }
 .banner-item-navs {
@@ -51,7 +49,27 @@
   border-radius: 5px;
   background-repeat: no-repeat;
 }
-
+.hot-logo {
+  background: url("/src/assets/icons/hot-label.png");
+  height: 60px;
+  width: 80px;
+  background-repeat: no-repeat;
+}
+.hovering-box {
+  height: 230px;
+  width: 80%;
+  background-size: 115%;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+.hovering-box:hover {
+  background: url("/src/assets/icons/item-hover.png");
+  height: 230px;
+  width: 80%;
+  background-size: 115%;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
 .product-img-2 {
   background-image: url("/src/assets/images/Product-2.jpg");
   width: 112%;

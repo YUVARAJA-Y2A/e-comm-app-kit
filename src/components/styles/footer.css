@@ -1,11 +1,13 @@
 .footer-background {
   width: 100%;
-  height: 680.59px;
+  height: 625px;
   background: #bcddfe;
+}
+.footer-topset {
+  padding-top: 2%;
 }
 .ecomm-logo-set {
   padding-top: 5%;
-  padding-left: 5%;
   width: 30%;
 }
 .ecomm-subject,
@@ -20,11 +22,22 @@
 
   color: #22262a;
 }
-.followus-set {
+.contactus-subject {
+  width: 60%;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22262a;
+}
+.followus-set,
+.contactus-set {
   padding-top: 6.5%;
   width: 20%;
 }
-.followus-title {
+.followus-title,
+.contactus-title {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -32,7 +45,63 @@
   line-height: 27px;
   color: #22262a;
 }
-.followus-subject {
-  height: 5%;
-  word-wrap: normal;
+
+.fb-icon {
+  background: url("/src/assets/icons/facebook.png");
+  height: 20px;
+  width: 20%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.twitter-icon {
+  background: url("/src/assets/icons/twitter.png");
+  height: 20px;
+  width: 20%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.title-information,
+.title-service,
+.title-myaccount,
+.title-ouroffers {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+}
+.content-information,
+.content-service,
+.content-aboutus,
+.content-ouroffers {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #262626;
+}
+.footer-infos {
+  padding-top: 5%;
+}
+.footer-line {
+  padding-left: 9%;
+}
+.footer-trademark {
+  font-family: Proxima Nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c1c8ce;
+  padding-top: 2%;
+  padding-left: 8%;
+}
+.brand-logos {
+  background: url("/src/assets/icons/Brands.png");
+  height: 25px;
+  width: 25%;
+  background-repeat: no-repeat;
+  border-radius: 0px;
 }
