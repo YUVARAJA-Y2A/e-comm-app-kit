@@ -1,0 +1,38 @@
+.footer-background {
+  width: 100%;
+  height: 680.59px;
+  background: #bcddfe;
+}
+.ecomm-logo-set {
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 30%;
+}
+.ecomm-subject,
+.followus-subject {
+  width: 60%;
+
+  font-family: Proxima Nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #22262a;
+}
+.followus-set {
+  padding-top: 6.5%;
+  width: 20%;
+}
+.followus-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+}
+.followus-subject {
+  height: 5%;
+  word-wrap: normal;
+}

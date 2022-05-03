@@ -1,0 +1,79 @@
+.featured-products-title {
+  text-align: center;
+  padding-top: 5%;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  color: #22262a;
+}
+.shoe-img {
+  background: url("/src/assets/images/Shoe.png");
+  border-radius: 2px;
+  height: 175px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.shoe-name {
+  font-family: Proxima Nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  width: 75%;
+  color: #262626;
+}
+.shoe-price-disc {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff4858;
+}
+.shoe-price-org {
+  font-family: Proxima Nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: line-through;
+  color: #c1c8ce;
+}
+.product-lists {
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.search-bar {
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.search-text {
+  border: 2px solid #bcddfe;
+  height: 60px;
+  width: 40%;
+  padding-left: 2%;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.search-button {
+  background: #40bfff;
+  height: 60px;
+  width: 10%;
+  left: 927.469482421875px;
+  top: 4135.00048828125px;
+  border-radius: 2px;
+  border: #40bfff;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}

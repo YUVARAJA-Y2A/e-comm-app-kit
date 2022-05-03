@@ -1,0 +1,42 @@
+.rectangle-bg {
+  position: absolute;
+  background: url("/src/assets/images/Rectangle\ _Background_Shoe.png");
+  height: 500px;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 5%;
+}
+.sample-shoe {
+  position: relative;
+  background: url("/src/assets/images/Shoe_Sample.png");
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 45%;
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 50%;
+  margin-right: auto;
+}
+.banner-ad-title {
+  padding-top: 9%;
+  padding-left: 5%;
+  font-family: Poppins, sans-serif;
+  width: 50%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 82px;
+  color: #ffffff;
+}
+.banner-ad-subtitle {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 5%;
+}
+.banner-ad-shopnow {
+  padding-left: 5%;
+}
