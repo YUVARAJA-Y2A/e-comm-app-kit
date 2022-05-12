@@ -6,11 +6,11 @@ import { HiSearch } from "react-icons/hi";
 
 function Header() {
   return (
-    <div>
+    <div class="header-main">
       <div class="d-flex justify-content-between">
         <nav class="navbar navbar-expand navbar-light">
-          <div class="d-flex flex-row">
-            <div class="mx-1">
+          <div class="d-flex">
+            <div>
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a
@@ -51,7 +51,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            <div class="mx-1">
+            <div>
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a
@@ -94,42 +94,62 @@ function Header() {
             </div>
           </div>
         </nav>
-        <div class="d-flex mt-2">
-          <div class="d-flex">
-            <BsPerson size={25} />
-            <p class="px-1 my-profile">My profile</p>
+        <div class="d-flex">
+          <div class="d-flex align-items-center">
+            <BsPerson size={35} />
+            <div class="px-1 my-profile">My profile</div>
           </div>
-          <div class="d-flex px-3">
-            <BiCart size={25} />
-            <p class="ps-3 items">Items</p>
+          <div class="d-flex align-items-center px-3">
+            <div>
+              <BiCart size={35} class="position-absolute" />
+              <div class="ps-3">
+                <p class="cart-number">2</p>
+              </div>
+            </div>
+            <div class="ps-3 items">Items</div>
           </div>
-          <div class="d-flex ps-3">
-            <p class="price pe-1">$0.00</p>
+          <div class="d-flex align-items-center ps-3">
+            <div class="price pe-1">$0.00</div>
             <HiSearch size={25} />
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-between">
+      <div class="d-flex align-items-center justify-content-between">
+        {/* E-comm logo-set */}
         <div class="d-flex">
-          <div class="logo-1 mt-2 pt-5 ms-2"></div>
-          <div class="ps-1 pt-3 brand-title">E-Comm</div>
+          <div class="logo-1"></div>
+          <div class="ps-1 brand-title">E-Comm</div>
         </div>
-        <div class="nav-options pt-2">
-          <a class="nav-home-btn pe-5" href="#">
-            HOME
-          </a>
-          <a class="nav-bags-btn px-5" href="#">
-            BAGS
-          </a>
-          <a class="nav-sneakers-btn px-5" href="#">
-            SNEAKERS
-          </a>
-          <a class="nav-belt-btn px-5" href="#">
-            BELT
-          </a>
-          <a class="nav-contact-btn ps-5" href="#">
-            CONTACT
-          </a>
+        <div>
+          <div class="d-flex justify-content-between">
+            <div class="home-drpdwn pe-4">
+              <a class="nav-home-btn" href="#">
+                HOME
+              </a>
+              <div class="home-button-setup"></div>
+              {/* <div class="home-dropdown"></div> */}
+            </div>
+            <div class="px-4">
+              <a class="nav-bags-btn" href="#">
+                BAGS
+              </a>
+            </div>
+            <div class="px-4">
+              <a class="nav-sneakers-btn" href="#">
+                SNEAKERS
+              </a>
+            </div>
+            <div class="px-4">
+              <a class="nav-belt-btn" href="#">
+                BELT
+              </a>
+            </div>
+            <div class="ps-4">
+              <a class="nav-contact-btn" href="#">
+                CONTACT
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

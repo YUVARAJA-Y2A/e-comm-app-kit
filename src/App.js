@@ -9,7 +9,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <div>
-      <div class="m-4 mx-5 px-4">
+      <div>
         <Header />
       </div>
       <div>
@@ -18,7 +18,7 @@ function App() {
       <div>
         <BannerItems />
       </div>
-      <div>
+      <div class="mt-5">
         <Banner_Ad />
       </div>
       <div>

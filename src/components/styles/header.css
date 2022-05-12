@@ -1,3 +1,9 @@
+.header-main {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+}
 .drop-down-lang,
 .my-profile,
 .items {
@@ -36,7 +42,8 @@
   line-height: 27px;
   /* identical to box height */
   color: #22262a;
-  width: 70%;
+  align-items: center;
+  display: flex;
 }
 .nav-home-btn,
 .nav-bags-btn,
@@ -49,4 +56,45 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+}
+.nav-set-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-drpdwn:hover .home-button-setup {
+  position: absolute;
+  background: url("/src/assets/images/MEGAMENU.png");
+  height: 50%;
+  width: 70%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* left: 5%;
+  top: 5%; */
+  top: 22%;
+  right: 1%;
+  z-index: 1;
+
+  /* <time> values */
+  transition-delay: 3s;
+  transition-delay: 2s, 4ms;
+
+  /* Global values */
+  transition-delay: inherit;
+  transition-delay: initial;
+  transition-delay: revert;
+  transition-delay: revert-layer;
+  transition-delay: unset;
+}
+
+.cart-number {
+  text-align: center;
+  font-size: smaller;
+  color: #ffffff;
+  background: #fb7181;
+  height: 23px;
+  width: 23px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  position: relative;
 }

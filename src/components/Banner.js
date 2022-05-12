@@ -5,7 +5,6 @@ function Banner() {
   return (
     <div>
       <div class="banner-background">
-        <div class="home-dropdown"></div>
         <p class="banner-text">Super Flash Sale 50% Off</p>
       </div>
       <div class="banner-items d-flex flex-row">

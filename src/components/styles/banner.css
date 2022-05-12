@@ -6,16 +6,10 @@
   height: 650px;
   background-repeat: no-repeat;
 }
-.home-dropdown {
-  background: url("/src/assets/images/MEGAMENU.png");
-  margin-left: 22%;
-  height: 320px;
-  width: 75%;
-  background-size: 95%;
-  background-repeat: no-repeat;
-}
+
 .banner-text {
-  position: absolute;
+  padding-top: 15%;
+  position: static;
   width: 50%;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -26,6 +20,7 @@
   color: #ffffff;
   padding-left: 5.5%;
 }
+
 .banner-item1 {
   background: url("/src/assets/images/Banner-Item-1.jpg");
   width: 30%;
