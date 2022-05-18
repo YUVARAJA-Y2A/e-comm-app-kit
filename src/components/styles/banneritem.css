@@ -53,9 +53,27 @@
   height: 30px;
   width: 25%;
 }
+
+.div-hovering-box {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+}
+.div-icons {
+  display: flex;
+  justify-content: center;
+}
+.hovering-box:hover .heart-icon {
+  height: 40%;
+  width: 40%;
+}
+.hovering-box:hover .cart-icon {
+  height: 40%;
+  width: 40%;
+}
 .hovering-box {
   display: flex;
-  height: 200px;
+  height: 70%;
   width: 100%;
   align-items: center;
 }
@@ -64,18 +82,17 @@
   position: relative;
   align-items: center;
   background: url("/src/assets/icons/overlay.png");
-  height: 75%;
+  height: 70%;
   width: 100%;
-  background-size: 95%;
   background-repeat: no-repeat;
 }
 .hovering-box:hover .overlay-circle {
-  margin-left: 20%;
   background: url("/src/assets/icons/Vector_circle.png");
-  height: 30%;
+  height: 26%;
   width: 20%;
   background-size: 100%;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .product-img-title {
